@@ -1,0 +1,41 @@
+body
+{
+background-image:url('voted.jpg');
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+h1
+{
+text-align:center;
+margin-top:30%;
+}
+ul
+{
+float:right;
+list-style-type:none;
+}
+button
+{
+background-color:#8000ff;
+border:none;
+color:white;
+padding:17px 34px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+font-size:20px;
+}
+
+#msform {
+    width: 300px;
+    margin: 0px auto;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(110, 95, 95, 0.267),rgba(48, 40, 40, 0.432));
+    min-height: 120px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(0 0 0 / 20%);
+}

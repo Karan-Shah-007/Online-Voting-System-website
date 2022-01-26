@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.images{
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(voting.jpg);
+filter: contrast(200%);
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display:flex;
+    justify-content:center;
+    font-family:sans-serif;
+}
+h1
+{
+color:#fff;
+
+margin-bottom:70px;
+font-size:45px;
+letter-spacing:2px;
+text-align:center;
+}
+
+.text-box
+{
+height:20px;
+padding:10px;
+border:none;
+outline:none;
+color:black;
+}
+
+::placeholder
+{
+  color: black;
+  }
+.btn
+{
+height:40px;
+padding:10px;
+border:none;
+color:white;
+background:#4863A0;
+width:80px;
+}
+
+.btn a
+{
+text-decoration:none;
+color:white;
+}
+.btn:hover{
+background:black;
+cursor:pointer;
+}
+
+.login-box
+{
+padding:30px;
+}
+
